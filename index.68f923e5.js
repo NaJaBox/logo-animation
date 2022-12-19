@@ -1,0 +1,2 @@
+const container=document.querySelector(".container"),cloneContainer=container.cloneNode(!0);cloneContainer.classList.add("duplicate"),container.append(cloneContainer),container.addEventListener("click",(()=>{container.classList.add("slide","no-load");const n=container.querySelectorAll(".row");n[n.length-1].addEventListener("animationend",(()=>{container.classList.remove("slide")}))}));
+//# sourceMappingURL=index.68f923e5.js.map
